@@ -17,8 +17,6 @@ dependencies:
   logger: ^2.1.0
   url_launcher: ^6.2.4
   smooth_page_indicator: ^1.1.0
-  flutter_localizations:
-    sdk: flutter
 
   # Icons
   iconsax: ^0.0.8
@@ -27,7 +25,6 @@ dependencies:
   # State Management
   get: ^4.6.6
   get_storage: ^2.1.1
-  flutter_localization: ^0.2.0
 
 # ---------- PACKAGES DEV ----------
 dev_dependencies:
@@ -37,12 +34,10 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 
 flutter:
-  generate: true
   uses-material-design: true
 
   # ---------- LOCAL ASSETS ----------
   assets:
-    - assets/icons/
     - assets/images/on_boarding_images/
 
   # ---------- LOCAL FONTS ----------

@@ -1,15 +1,10 @@
-import 'package:app_mobile/generated/app_localizations.dart';
-import 'package:get/get.dart';
-
 class AppText {
   AppText._();
 
   // Global texts
 
   // OnBoarding texts
-  // static const String onBoardingTitle1 = "Elija su producto";
-  static String onBoardingTitle1 =
-      AppLocalizations.of(Get.context!)!.onboarding('onBoardingTitle1');
+  static const String onBoardingTitle1 = "Elija su producto";
   static const String onBoardingTitle2 = "Seleccione el método de pago";
   static const String onBoardingTitle3 = "Entrega a domicilio";
 
