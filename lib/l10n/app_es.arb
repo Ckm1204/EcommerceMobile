@@ -1,5 +1,6 @@
 {
   "appTitle": "Mi Aplicación",
   "content": "Hola",
-  "onboarding": "{name, select, onBoardingTitle1{Elija su producto} other{}}"
+  "onboarding": "{name, select, onBoardingTitle1{Elija su producto} other{}}",
+  "login":"{name, select, loginTitle1{Ingrese su correo o ususario} other{}}"
 }

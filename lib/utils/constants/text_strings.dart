@@ -1,3 +1,6 @@
+import 'package:app_mobile/generated/app_localizations.dart';
+import 'package:get/get.dart';
+
 class AppText {
   AppText._();
 
@@ -14,4 +17,9 @@ class AppText {
       "Para realizar transacciones sin problemas, elija su forma de pago.";
   static const String onBoardingSubTitle3 =
       "¡Entrega rápida, segura y sin contacto!";
+
+
+  static String loginEmail = AppLocalizations.of(Get.context!).login('loginEmail');
+  static String loginPassword = AppLocalizations.of(Get.context!).login('loginPassword');
+  static String loginSignIn = AppLocalizations.of(Get.context!).login('loginSignIn');
 }

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:app_mobile/utils/constants/text_strings.dart';
+
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -15,8 +17,19 @@ class LoginScreen extends StatelessWidget {
           },
         ),
       ),
-      body: const Center(
-        child: Text('Login'),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(AppText.loginEmail),
+            Text(AppText.loginPassword),
+            ElevatedButton(
+              onPressed: () {
+              },
+              child: Text(AppText.loginSignIn),
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -110,6 +110,11 @@ abstract class AppLocalizations {
   /// In es, this message translates to:
   /// **'{name, select, onBoardingTitle1{Elija su producto} other{}}'**
   String onboarding(String name);
+   /// No description provided for @login.
+  ///
+  /// In es, this message translates to:
+  /// **'{name, select, loginEmail{Correo electrónico} loginPassword {Contraseña} loginSignIn{Iniciar sesión} other{}}'**
+  String login(String name);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

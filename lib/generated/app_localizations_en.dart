@@ -23,4 +23,18 @@ class AppLocalizationsEn extends AppLocalizations {
     );
     return '$_temp0';
   }
+
+  @override
+  String login(String name) {
+    String _temp0 = intl.Intl.selectLogic(
+      name,
+      {
+        'loginEmail': 'Email',
+        'loginPassword': 'Password',
+        'loginSignIn': 'Sign In',
+        'other': '',
+      },
+    );
+    return '$_temp0';
+  }
 }
